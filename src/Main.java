@@ -16,4 +16,22 @@ public class Main {
         a = 5;
         arr2[0] = 5;
     }
+    /*
+ int i = 0;
+        Iterator<Integer> itr = map.keySet().iterator();
+        while (itr.hasNext()){
+            double profit = 0d;
+            double expenses = 0d;
+            for (MonthlyStat monthlyStat : map.get(i)) {
+                double sum = monthlyStat.quantity * monthlyStat.sumOfOne;
+                if (monthlyStat.isExpense) {
+                    expenses += sum;
+                } else {
+                    profit += sum;
+                }
+            }
+            yearlyStatMap.get(i);
+            i++;
+        }
+ */
 }
